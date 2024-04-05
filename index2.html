@@ -1,0 +1,40 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skitter</title>
+    <link rel="icon" href="https://png.pngtree.com/background/20230614/original/pngtree-the-twitter-bird-that-has-sunglasses-picture-image_3495161.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    
+</head>
+<body>
+ <center>
+  <button type="button" class="btn-primary" onclick="cerrar()"style ="fload:right">CERRAR SESION</button>
+  <h2>BIENVENIDO A LAS SALAS DE SKITTER</h2>  
+  <img src="https://png.pngtree.com/background/20230614/original/pngtree-the-twitter-bird-that-has-sunglasses-picture-image_3495161.jpg" alt="">
+  <h3 id="user_name" class="color_white"></h3>
+  <div class="form-group input_div_room_page">
+      <label>#Añadir sala:</label>
+      <input type="text" style="padding: 20px ; ;" id="room_name" class="form-control" placeholder="#Nombre de la sala">
+  </div>
+  <button onclick="addRoom();" class="btn btn-success">#Añadir sala</button>
+  <h3 class="color_white">#SALASDETENDENCIA</h3>
+  <div id="output"></div>
+   
+</center>
+<script src="main2.js"></script>   
+</body> 
